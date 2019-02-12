@@ -4,4 +4,9 @@ using UnityEngine;
 
 public class BranchingDemo : MonoBehaviour
 {
+    private void Start()
+    {
+        Debug.Log("Test09");
+        Debug.Log("Line10");
+    }
 }
