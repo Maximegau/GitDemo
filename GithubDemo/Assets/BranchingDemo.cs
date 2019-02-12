@@ -17,9 +17,15 @@ public class BranchingDemo : MonoBehaviour
         Debug.Log("Line10");
     }
 
-    private void RandomNumber ()
+    private void RandomNumber()
     {
         taijwdgr *= 2;
         taijwdgr += 89;
+    }
+
+    private void WeWillTry ()
+    {
+        Debug.Log("We Will Try");
+
     }
 }
