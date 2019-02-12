@@ -14,4 +14,9 @@ public class BranchingDemo : MonoBehaviour
         //Add Line Middle
         Debug.Log("Line10");
     }
+
+    private void WeWillTry ()
+    {
+        Debug.Log("We Will Try");
+    }
 }
