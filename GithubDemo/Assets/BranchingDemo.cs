@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class BranchingDemo : MonoBehaviour
 {
+    int taijwdgr;
+
     private void Start()
     {
         //Added Line Before
@@ -13,5 +15,11 @@ public class BranchingDemo : MonoBehaviour
         Debug.Log(gameObject.transform.position);
         //Add Line Middle
         Debug.Log("Line10");
+    }
+
+    private void RandomNumber ()
+    {
+        taijwdgr *= 2;
+        taijwdgr += 89;
     }
 }
